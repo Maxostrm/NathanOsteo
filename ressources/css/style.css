@@ -1,9 +1,73 @@
 html{
     font-size: 62.5%;
 }
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+.background{
+    background-image: url("../images/fondtoplarge.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+}
 /*header*/
 header{
-    height: 8rem;
     width: 100%;
+    height: 7rem;
+    display: inline-flex;
+    justify-content:space-between;
+    position: fixed;
+}
+    
+header img{
+    display: block;
+    width: auto;
+    height: 100%;
+    margin: 0rem 3rem;
+}
+
+
+nav{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    float: right;
+
+    width:30%;
+    margin: 0rem 3rem;
+
+}
+
+.logo{
+    display: inline-flex;
+}
+
+/*partie haute rdv*/
+
+.top{
+    width: 100%;
+    height: 100ù;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 8rem;   
+}
+
+.img-top{
+    width: 50%;
+    padding: 3.6rem 3.6rem;
+
+}
+
+.img-top img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-top{
+    width: 50%;
+    padding: 3.6rem 3.6rem;
 }
