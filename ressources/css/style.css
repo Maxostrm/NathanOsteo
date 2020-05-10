@@ -209,16 +209,23 @@ a{
 /* partie basse portrait*/
 
 .portrait{
-    display: inline-flex;
     background-color: rgb(251, 238, 230);
-    padding: 2rem 2rem;
+    padding: 2rem 10rem 10rem 2rem;
 }
 
+.cadre{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(256, 256, 256, 0.5);
+    padding: 5rem 0rem;
+}
 .portrait img{
     display: block;
     max-width: 100%;
+    width: 60%;
     height: auto;
-    width: 50%;
     margin: 0 auto;
     box-shadow: -4rem 4rem 3rem rgb(33, 47, 60) ;
     
@@ -231,9 +238,10 @@ a{
 }
 
 .right-portrait{
-    max-width: 50%;
-    width: 100%;
+    max-width: 40%;
     height:auto;
+    text-align: justify;
+    padding: 0 5rem;
 
 }
 
