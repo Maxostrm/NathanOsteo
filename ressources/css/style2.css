@@ -143,7 +143,7 @@ nav{
 
 .conseils{
     background-color: rgb( 31, 97, 141);
-    padding: 3.2rem 3.2rem;
+    padding: 3.2rem 3.2rem 10rem 3.2rem;
     box-shadow: 0rem 0px 3rem black;
     display: flex;
     flex-flow: column wrap;
@@ -151,16 +151,16 @@ nav{
 }
 
 .conseils .titre{
-    text-align: center;
+    display: inline-flex;
     padding: 0rem 0rem 10rem 0rem; 
+    font-family: 'cinzel', Helvetica, sans-serif;
 
 }
 
+.conseils .titre p{
+    padding: 2rem 1rem;
+    text-decoration: underline;
 
-.article img{
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .liste-article{
@@ -173,21 +173,38 @@ nav{
 .article{
     padding: 1rem 0.5rem;
     margin: 0 2.4rem;
-    background-color: rgba(256, 256, 256, 0.5);
     border-radius: 0.5rem;
+
 }
-
-.article button{
-display: flex;
-justify-content: center;
-width: 100%;
-border-radius: 0.5rem;
-background-color: white;
-border: none;
-box-shadow: none;
+#enfants{
+    background-image: url("../images/enfant.jpg");
 }
-
-
+#seniors{
+    background-image: url("../images/senior.jpg");
+}
+#efforts{
+    background-image: url("../images/crossfit-534615_1920.jpg");
+}
+.text-article{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30rem 20rem 0rem 0.5rem;
+    width: 40%;
+    height: 40%;
+    color: white;
+    box-shadow:4rem 4rem 0rem steelblue, 4rem -4rem 0rem steelblue;
+}
+.message{
+    border: 0.1rem solid white;
+    font-weight: bold;
+    text-shadow: 0rem 0rem 0.5rem black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* partie basse portrait*/
 
