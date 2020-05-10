@@ -103,91 +103,98 @@ nav{
 }
 
 .img-top{
-    width: 60%;
-    padding: 3.6rem 3.6rem 3.6rem 7rem;
-
+    width: 50%;
+    height: auto;
 }
 
 .img-top img{
     display: block;
     max-width: 100%;
-    height: auto; 
-    width: 80%;
-    position: relative;
-    left: 10rem; 
-    bottom: 10rem; 
     border: 0.3rem solid white; 
+    border-radius: 0.5rem;
 }
 
 .text-top{
-    width: 50%;
-    height: 100%;
-    padding: 2rem 2rem;
-    background-color: rgba(256, 256, 256, 0.75);
-    position: relative;
-    right: 20rem;
-    top: 37rem;
+    display: inline-flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(33, 47, 60, 0.25);
+    width: 50rem;
+    height: 40rem;
+    border-radius: 0.5rem;
+    color: white;
 }
 
-.top button{
-    display: flex;
-    margin: 0rem auto;
-    padding: 0 5rem;
+.text-top h1{
+    margin: 0 auto;
+}
+
+.bouton{
+    background-color: rgba(33, 47, 60, 0.9);
+    padding: 1rem 1rem;
     border-radius: 0.5rem;
-    background-color: rgba( 31, 97, 141, 0.75);
-    box-shadow: 0rem 0px 0.5rem grey;
-    border: none;
+}
+.bouton p{
+    border: 0.2rem solid white;
+    padding: 3rem 5rem;
+    margin: 0 auto;
 }
 
 /*partie centrale parole*/
 
 .conseils{
     background-color: rgb( 31, 97, 141);
-    padding: 3.2rem 3.2rem;
+    padding: 3.2rem 3.2rem 10rem 3.2rem;
     box-shadow: 0rem 0px 3rem black;
     display: flex;
     flex-flow: column wrap;
     align-content:space-between;
+    margin: 2rem auto;
 }
-
-.conseils .titre{
-    text-align: center;
-    padding: 0rem 0rem 10rem 0rem; 
-
-}
-
-
-.article img{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
 .liste-article{
     display: inline-flex;
     justify-content: space-around;
     align-content: center;
     flex-flow: row nowrap;
+    padding: 7rem 1rem;
 }
 
 .article{
     padding: 1rem 0.5rem;
     margin: 0 2.4rem;
-    background-color: rgba(256, 256, 256, 0.5);
     border-radius: 0.5rem;
+
 }
-
-.article button{
-display: flex;
-justify-content: center;
-width: 100%;
-border-radius: 0.5rem;
-background-color: white;
-border: none;
-box-shadow: none;
+#enfants{
+    background-image: url("../images/enfant.jpg");
 }
-
-
+#seniors{
+    background-image: url("../images/senior.jpg");
+}
+#efforts{
+    background-image: url("../images/crossfit-534615_1920.jpg");
+}
+.text-article{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30rem 20rem 0rem 0.5rem;
+    width: 40%;
+    height: 40%;
+    color: white;
+    box-shadow:4rem 4rem 0rem steelblue, 4rem -4rem 0rem steelblue;
+}
+.message{
+    border: 0.1rem solid white;
+    font-weight: bold;
+    text-shadow: 0rem 0rem 0.5rem black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* partie basse portrait*/
 
@@ -195,8 +202,6 @@ box-shadow: none;
     display: inline-flex;
     background-color: rgb(251, 238, 230);
     padding: 2rem 2rem;
-    margin: 1rem auto;
-
 }
 
 .portrait img{
@@ -205,6 +210,7 @@ box-shadow: none;
     height: auto;
     width: 50%;
     margin: 0 auto;
+    box-shadow: -4rem 4rem 3rem rgb(33, 47, 60) ;
     
 }
 
