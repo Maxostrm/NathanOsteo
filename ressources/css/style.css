@@ -4,13 +4,24 @@ html{
 body{
     margin: 0 0;
     padding: 0 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    font-size: 1.6rem;
 }
 .background{
     background-image: url("../images/fondtoplarge.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 
+}
+
+.main{
+    position: relative;
+    top: 8rem; 
 }
 /*header*/
 header{
@@ -19,6 +30,7 @@ header{
     display: inline-flex;
     justify-content:space-between;
     position: fixed;
+    z-index: 10;
 }
     
 header img{
@@ -48,11 +60,9 @@ nav{
 
 .top{
     width: 100%;
-    height: 100ù;
+    height: 100%;
     display: inline-flex;
-    justify-content: center;
-    position: relative;
-    top: 8rem;   
+    justify-content: center;  
 }
 
 .img-top{
@@ -70,4 +80,66 @@ nav{
 .text-top{
     width: 50%;
     padding: 3.6rem 3.6rem;
+}
+
+/*partie centrale parole*/
+
+.conseils{
+    background-color: #60C6EF;
+    padding: 3.2rem 3.2rem;
+}
+
+.article img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.liste-article{
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row nowrap;
+}
+
+.article{
+    padding: 1rem 0.5rem;
+    margin: 0 2.4rem;
+    background-color: white;
+}
+
+.article button{
+display: flex;
+margin: 0 auto;
+}
+
+
+
+/* partie basse portrait*/
+
+.portrait{
+    display: inline-flex;
+
+}
+
+.portrait img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.left-portrait{
+   max-width: 50%;
+   width: 100%;
+
+}
+
+.right-portrait{
+    max-width: 50%;
+    width: 100%;
+    height:auto;
+
 }
