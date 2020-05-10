@@ -79,6 +79,10 @@ nav{
     margin: 0rem 3rem;
 }
 
+nav h4 a{
+    color: black;
+}
+
 .logo{
     display: inline-flex;
 }
